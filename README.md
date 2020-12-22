@@ -194,12 +194,25 @@ os cent os ubuntu
 object storage service => file +Meta data 
 
 
+AWS 서비스 SCOPE => administrator <- administrators < 권한
+ global (IAM CDN ,ROUTE 53 bucket name
+ region (S3 object 저장소, VPC)
+ A.Z (Asuability zone) - ec2,EBS, subnet routetable 
 IAM 인증 => IAM 유저 -> 아이디 패스워드 자격증명 -> 콘솔
-           process -> AK, SC 자격증명
+           process -> AK, SC 자격증명 (영구적사용가능) : static 
 
-   
-   권한 
-
- 
-
-
+   	role (역할) - 임시 key (AK, SK) -> STS (security token service)
+   권한  용도와  1 AWS service (ec2)
+   	 목적    2 account(나의 IAM user / 다른 account IAM user)
+                3 web identity ->aws 
+                4 SAML2.0  (ADS ,LDAP)
+		            Active Directory Service 
+			    
+AWS 서비스
+         account(계정) : 이메일 / pw -> console - fullaccess
+IAM 인증 1 IAM 유저  ID/PW 자격증명 - > console
+         2 signup - > process->AK/SK 자격증명 ( 영구적 사용가능) :STATIC
+	 3 role(역할) -임시key (AK/SK) -> STS (security token service)
+	 
+    권한  용도와 목적 1 aws service(ec2)
+    
