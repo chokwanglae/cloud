@@ -194,7 +194,11 @@ os cent os ubuntu
 object storage service => file +Meta data 
 
 
+IAM 인증 => IAM 유저 -> 아이디 패스워드 자격증명 -> 콘솔
+           process -> AK, SC 자격증명
 
+   
+   권한 
 
  
 
