@@ -224,4 +224,20 @@ IAM 인증 1 IAM 유저  ID/PW 자격증명 - > console
  # vmware   
     exsi 유료  / Enterprise 용
     W/S
-    
+ 각각의 모듈을 분리               MSA 아키텍쳐
+마이크로 VM = >  aws lamda 
+Firecracker
+
+SAN 물리적인 연결 EBS 가상화 제공 
+
+파일기반 스토리지  EFS /NFS /SMB / CIFS 
+PM/ VM mount 파일서버 NFS 서버 
+rest full api 사용하는 방식
+
+아마존 이미지 AMI 
+
+IAM 인증 키스톤 웹 => 콘솔로 사용 호라이즌 
+
+OPEN STACK IaaS 오픈소스 솔루션 가상머신 
+
+vm 설치 root abc123 암호
