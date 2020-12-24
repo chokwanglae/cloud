@@ -216,7 +216,12 @@ IAM 인증 1 IAM 유저  ID/PW 자격증명 - > console
 	 
     권한  용도와 목적 1 aws service(ec2)
     
-    ## 서버가상화 기술
+ ## 서버가상화 기술
     
     하이버파이저 
-    가상머신 
+    가상머신 게스트 os 
+    
+ #vmware   
+    exsi 유료  / Enterprise 용
+    W/S
+    
