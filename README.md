@@ -221,7 +221,7 @@ IAM 인증 1 IAM 유저  ID/PW 자격증명 - > console
     하이버파이저 
     가상머신 게스트 os 
     
- #vmware   
+ # vmware   
     exsi 유료  / Enterprise 용
     W/S
     
