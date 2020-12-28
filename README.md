@@ -248,15 +248,17 @@ S3, Ceph , Swift
 Client : EC2 ,접근방식 http 프로톸콜 사용 (Restful api)
 
 ## Block 기반 Storage
-EBS // ISCSI, SAN ( 여러 개의 시스템을 공유)
+EBS // ISCSI, SAN ( 여러 개의 시스템을 공유) RDB(Ceph)
 CLient : EC2
 파일 기반 
 ## 파일 기반 스토리지
 자주 업데이트하는 파일 공유시 사용
 이미 구성되어 있어 사용하기에 편리
+고비용 스토리지 
+EFS ,NFS ,NAS,CEPHFS
 ## 데이터 베이스
 
-관계형 DB-RDS(SQL)
+관계형 DB-RDS(SQL) ,NOSQL
 Nosql : 일관성 모델을 이용하는 데이터 저장 
 SI 7 layer 
 
